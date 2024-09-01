@@ -1,0 +1,101 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+.container {
+    width: 95%;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+li {
+    font-size: 18px;
+}
+
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+    justify-content: right;
+    gap: 35px;
+}
+
+
+
+
+
+main .health-bgi {
+    background-image: url(images/Rectangle\ 4284.png);
+}
+main .health-bgi a {
+    background-color: blue;
+}
+main .edu-bgi {
+    background-image: url(images/Rectangle\ 4287-1.png);
+}
+main .edu-bgi a {
+    background-color: tomato;
+}
+main .cloth-bgi {
+    background-image: url(images/Rectangle\ 4287.png);
+}
+main .cloth-bgi a {
+    background-color: greenyellow;
+}
+main .food-bgi {
+    background-image: url(images/Rectangle\ 4287-2.png);
+}
+main .food-bgi a {
+    background-color: tomato;
+}
+
+
+
+main .bgi {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+}
+main .bgi .overlay {
+    background-color: rgba(0, 0, 0, 0.399);
+    height: 120px;
+    width: 100%;
+
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+main .bgi a {
+    position: absolute;
+    bottom: 33px;
+    left: 50px;
+
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+main h1 {
+    font-size: 40px;
+    margin: 40px 0 20px 0;
+}
+main p {
+    font-size: 20px;
+    line-height: 35px;
+}
