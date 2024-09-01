@@ -1,0 +1,141 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+.container {
+    width: 95%;
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+li {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+header nav ul {
+    display: flex;
+    justify-content: right;
+    gap: 35px;
+}
+header .bgi {
+    background-image: url(images/bannerBg.jpeg);
+    background-repeat: no-repeat;
+    /* background-size: 100%; */
+    background-size: 100%;
+    background-position: top;
+}
+header .overlay {
+    background-color: rgba(255, 255, 255, 0.85);
+    height: 620px;
+}
+header .overlay .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 480px;
+}
+header h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+header input, header button {
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #44444465;
+    border-radius: 3px 0 0 3px;
+}
+header button {
+    border: none;
+    background-color: tomato;
+    color: white;
+    margin-left: -4px;
+    border-radius: 0 3px 3px 0;
+    padding: 11px;
+    cursor: pointer;
+}
+
+header a:focus-within {
+    text-decoration: underline;
+    color: tomato;
+}
+
+
+
+
+
+main {
+    margin: 50px 0;
+}
+main .cards img {
+    width: 100%;
+}
+main .cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+main .cards .card {
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+main .cards h2 {
+    font-size: 19px;
+    margin: 10px 0 0 20px;
+}
+main .card p {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 20px 0 0 20px;
+}
+main .cards .health {
+    background-color: rgba(0, 0, 255, 0.2);
+    color: rgba(0, 0, 255, 0.9);
+}
+main .cards .health p {
+    background-color: rgba(0, 0, 255, 0.2);
+    color: rgba(0, 0, 255, 0.9);
+}
+main .cards .edu {
+    background-color: rgba(255, 99, 71, 0.2);
+    color: rgba(255, 99, 71, 0.9);
+}
+main .cards .edu p {
+    background-color: rgba(255, 99, 71, 0.2);
+    color: rgba(255, 99, 71, 0.9);
+}
+main .cards .cloth {
+    background-color:rgba(0, 128, 0, 0.2);
+    color: rgba(0, 128, 0, 0.9);
+}
+main .cards .cloth p {
+    background-color:rgba(0, 128, 0, 0.2);
+}
+main .cards .food {
+    background-color: rgba(255, 99, 71, 0.2);
+    color: rgba(255, 99, 71, 0.9);
+}
+main .cards .food p {
+    background-color: rgba(255, 99, 71, 0.2);
+    color: rgba(255, 99, 71, 0.9);
+}

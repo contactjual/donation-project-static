@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+    header nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+    header nav ul {
+        gap: 20px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+    header input, header button {
+        margin-top: 10px;
+    }
+    header .overlay {
+        background-color: rgba(255, 255, 255, 0.85);
+        height: 400px;
+    }
+    header .overlay .center {
+        height: 280px;
+    }
+    main .cards {
+        grid-template-columns: auto auto;
+    }
+}
