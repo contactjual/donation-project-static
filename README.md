@@ -1,1 +1,3 @@
-live view: https://contactjual.github.io/Eighth-donation-project-/
+live view (static)..............................
+
+https://contactjual.github.io/donation-project-static/
